@@ -6,7 +6,7 @@ def function(n):
             print("Sequence")
 
 
-n = 100000
+n = 1000
 t0 = time.perf_counter()
 function(n)
 elapsed = time.perf_counter() - t0

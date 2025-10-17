@@ -10,7 +10,7 @@ def function(n):
                 counter += 1
                 k *= 2
     return counter
-n = 1000000
+n = 1000
 t0 = time.perf_counter()
 res = function(n)
 elapsed = time.perf_counter() - t0
